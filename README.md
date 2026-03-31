@@ -28,7 +28,7 @@ Your recipe collection on Android -- browse, cook, and shop with [Cooklang](http
 
 1. Install from [Google Play](https://play.google.com/store/apps/details?id=md.cook.android)
 2. Choose a sync method -- CookCloud (recommended) or local folder
-3. Add recipes using the [desktop app](https://cook.md/download), [CookBot](https://github.com/cook-md/cookbot), or any text editor
+3. Add recipes using the [Sync Agent](https://github.com/cook-md/sync-agent) or any text editor
 
 Recipes are plain text `.cook` files written in [Cooklang](https://cooklang.org). Example:
 
@@ -63,8 +63,7 @@ When reporting a bug, please include:
 |---------|-------------|
 | [Cooklang](https://cooklang.org) | Recipe markup language |
 | [Cook for iOS](https://github.com/cook-md/ios-app) | iOS app |
-| [Cook Desktop](https://github.com/cooklang/cooklang-app-desktop) | Desktop app for macOS, Windows, Linux |
-| [CookBot](https://github.com/cook-md/cookbot) | Terminal recipe manager |
+| [Sync Agent](https://github.com/cook-md/sync-agent) | Desktop sync agent |
 | [CookCloud](https://cook.md) | Cloud sync service |
 
 ## License
