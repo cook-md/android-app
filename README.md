@@ -65,7 +65,3 @@ When reporting a bug, please include:
 | [Cook for iOS](https://github.com/cook-md/ios-app) | iOS app |
 | [Sync Agent](https://github.com/cook-md/sync-agent) | Desktop sync agent |
 | [CookCloud](https://cook.md) | Cloud sync service |
-
-## License
-
-[MIT](LICENSE)
