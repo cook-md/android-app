@@ -48,6 +48,8 @@ Season with @salt{} and @pepper{} to taste.
 
 Full documentation with screenshots and guides is available at **[cook.md/help/android](https://cook.md/help/android)**.
 
+What changed in each version is in the [changelog](CHANGELOG.md), also published as [releases](https://github.com/cook-md/android-app/releases) you can watch or follow by RSS.
+
 ## Issues & feedback
 
 This repository is for collecting **[bug reports](https://github.com/cook-md/android-app/issues)** and **[feature discussions](https://github.com/cook-md/android-app/discussions)**.
