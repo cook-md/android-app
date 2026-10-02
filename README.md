@@ -21,13 +21,13 @@ Your recipe collection on Android -- browse, cook, and shop with [Cooklang](http
 - **Shopping lists** -- auto-generated from recipes, organized by aisle, shareable
 - **Timers** -- built-in with background notifications
 - **Clip recipes** -- import from any URL or photo into Cooklang format
-- **Sync** -- via [CookCloud](https://cook.md) across all devices, or use local folders
+- **Sync** -- via [Cook Cloud sync](https://cook.md/) across all devices, or use local folders
 - **Offline** -- works without internet once synced
 
 ## Getting started
 
 1. Install from [Google Play](https://play.google.com/store/apps/details?id=md.cook.android)
-2. Choose a sync method -- CookCloud (recommended) or local folder
+2. Choose a sync method -- Cook Cloud (recommended) or local folder
 3. Add recipes using the [Sync Agent](https://github.com/cook-md/sync-agent) or any text editor
 
 Recipes are plain text `.cook` files written in [Cooklang](https://cooklang.org). Example:
@@ -66,4 +66,4 @@ When reporting a bug, please include:
 | [Cooklang](https://cooklang.org) | Recipe markup language |
 | [Cook for iOS](https://github.com/cook-md/ios-app) | iOS app |
 | [Sync Agent](https://github.com/cook-md/sync-agent) | Desktop sync agent |
-| [CookCloud](https://cook.md) | Cloud sync service |
+| [Cook Cloud](https://cook.md/) | Cloud sync service |
