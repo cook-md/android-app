@@ -3,6 +3,22 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.12.2] - 2026-10-02
+
+### Added
+
+- "What's new" in Settings → About opens this changelog.
+- Hit the import limit without an account? You can now sign in for free
+  to keep importing, and the import picks up where it stopped.
+- Meal plans for today and tomorrow now appear at the top of My recipes, so
+  tonight's dinner is one tap away.
+
+### Changed
+
+- Onboarding and sign-in prompts no longer suggest that an account alone
+  brings sync, photo imports or meal plans: sync comes with Cook Basic, photo
+  and social-link imports with a Cook Cloud plan.
+
 ## [0.12.1] - 2026-09-30
 
 ### Added
