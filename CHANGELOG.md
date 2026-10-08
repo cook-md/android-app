@@ -3,6 +3,53 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.13.0] - 2026-10-08
+
+### Added
+
+- Getting started now asks about allergies, how much time you have on weeknights
+  and what you want help with, so your first recipes fit better — and ends on a
+  "Your cookbook is ready" page showing what was added for you.
+- Clip a recipe from plain text: the clip screen has a new Text tab where you paste a
+  recipe copied from a note, a message or an email, and the app turns it into a recipe
+  you can cook from.
+
+### Changed
+
+- Recipes in a folder are listed in file-name order. A recipe whose `title:` differs
+  from its file name shows the title but sits where the file name sorts.
+- In meal plans, notes are `-- note` lines, as in the Cook Editor and CookCLI; a `> note`
+  line now shows as plain text.
+- Meal plans are now free for everyone, signed in or not: every day of a plan is
+  open, and you can add a whole plan to your shopping list without a plan or an
+  account.
+
+### Fixed
+
+- Adding a meal plan to the shopping list now buys what the plan says: a dish ordered
+  by servings (`{4%servings}` of a recipe that serves two) is added twice, not four
+  times, matching the portion shown on the plan.
+- Opening your recipes, or a folder of them, is fast however many recipes you
+  have: the app now reads only the folder on screen, and only the recipes you
+  can see, instead of every recipe in the library. Rows show their file name
+  first and fill in the title and photo as they come into view.
+- Meal plans are read the same way as in the Cook Editor, CookCLI and the iPhone
+  app: a dish ordered by servings (`{4%servings}`) shows how many times the
+  recipe is cooked, meal times (`Dinner (19:00):`) are shown, and `-- notes`
+  appear as notes.
+- The "preparing your recipes" screen at the end of onboarding no longer closes
+  after a second or two with the bar half full: it stays up long enough to read
+  the cooking facts and fills the bar before your recipes open.
+- Turning sync on when your sign-in has lapsed now asks you to sign in again
+  instead of showing an error screen that came back every time you closed it.
+- Your starter recipes are no longer lost to a slow connection: the download at
+  the end of getting started now waits as long as a recipe import does, instead
+  of giving up after ten quiet seconds and handing you the demo recipes.
+- If the folder you picked for your recipes stops answering — its storage app
+  was removed, or the folder itself was deleted — the app now notices on the
+  first save and shows the "pick your folder again" banner, instead of failing
+  the save with a generic error.
+
 ## [0.12.2] - 2026-10-02
 
 ### Added
