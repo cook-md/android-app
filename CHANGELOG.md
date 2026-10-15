@@ -3,6 +3,48 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.14.0] - 2026-10-15
+
+### Added
+
+- Favourites: tap the heart on a recipe page, or use the ⋮ menu on a recipe row, and find
+  your saved recipes in the new Favourites tab, optionally grouped by tag. They are kept in
+  a `.bookmarks` file in your recipe folder, so the iOS app and the editor see the same list.
+- Search: tap the search bar on Recipes or Favourites to find recipes by title, ingredient,
+  tag or any word in them, or tap the microphone to search by voice. Before you type, it
+  shows your recent searches and the recipes you opened last.
+- Write a recipe on your phone with + → Create manually, and edit any recipe's text from the
+  ⋮ menu on its page, with a preview before you save.
+- The + menu on My recipes also offers Paste and convert, Scan from a photo and Import a file.
+- Rename, move or delete a recipe from its ⋮ menu; its photos come along, and Undo brings it
+  back.
+- Press and hold a folder to move it, copy its link, or delete it.
+- Adding a recipe that uses other recipes, like a dressing, to the shopping list asks which
+  of them to buy for, so you can skip the ones you already have.
+- Swipe a menu right to put the whole menu on the shopping list.
+- Tap a linked recipe in the ingredients or steps to open it.
+- A More details tab on the recipe page shows extra notes from your recipe file.
+
+### Changed
+
+- The recipe page, My recipes and the menu page have a new look. Recipe pages show one
+  ingredient list, larger photos and easier-to-read steps; recipe rows show time, servings
+  and tags.
+- Swiping a recipe now reveals a button: swipe right for Add to list, left for Delete (or
+  Remove on Favourites).
+- Pressing and holding a recipe opens the same menu as its ⋮ button.
+- Add to list shows a short message with Undo instead of a pop-up.
+
+### Fixed
+
+- Photos saved as HEIC, the iPhone's default, now show on recipes (Android 9 and newer).
+- The shopping list counts the same ingredients as the iOS app for recipes that use other
+  recipes, and finds them when their files end in capitals, like `Pancakes.COOK`.
+- The tabs at the bottom of the screen stay in place inside a folder.
+- If Add to list can't save the ingredients, the recipe page now says so.
+- The welcome, paywall and getting-started screens reach the bottom of the screen with
+  gesture navigation, without a pale strip above the home bar.
+
 ## [0.13.0] - 2026-10-08
 
 ### Added
