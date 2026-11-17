@@ -3,6 +3,49 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.15.0] - 2026-11-17
+
+### Added
+
+- Cook mode now shows a recipe's notes, on pages of their own in the place they have in the
+  recipe. A web address in a note opens in the browser.
+- A Browser tab on Clip Recipe: browse to a recipe, including on sites you are signed in to or
+  that sit behind a paywall you subscribe to, and clip it from the page. Select part of the
+  page first to clip only that. "Browse the web" in the + menu on My recipes opens the
+  tab.
+
+### Changed
+
+- Cook mode no longer opens a section with an empty ingredients page when the section uses
+  no ingredients.
+- "Skip" on any of the questions after "Get started" now closes them and opens an empty recipe
+  list, so you can start with only your own recipes. "Get sample recipes" there asks the
+  questions again, and "Skip" brings you back to the list without adding anything.
+- The free-trial card at the end of setup now says what the trial gives you: "Try all app
+  features free for 7 days".
+  
+- "Start free trial" on that card now opens the Google Play purchase for the plan the card
+  describes, in one tap. If you close the Play sheet you see all plans, as before. Once a plan
+  is bought, setup ends and your recipes open.
+- The free-trial card now spells out the terms ("No charge today, then … Auto-renews … until
+  canceled"), links to the Terms of Use and Privacy Policy, and offers "Already have an
+  account? Sign in" when you are signed out. If the account you sign in to already has a
+  plan, the card goes away.
+  
+- The plans screen now says that sync covers your shopping list as well as your recipes.
+  
+
+### Fixed
+
+- Stopping a paused timer no longer closes the app.
+- A timer that finishes on a phone with no alarm sound set no longer closes the app; it
+  vibrates and shows its notification.
+- Tapping play on a timer whose time has gone back to zero no longer closes the app.
+- On a phone without a system file picker, choosing a recipe folder or importing a file now
+  shows a message instead of closing the app.
+- A recipe whose title has a `:`, `?` or a similar character no longer shows up twice in a
+  folder you chose yourself, and can be moved or renamed straight after it is saved.
+
 ## [0.14.0] - 2026-10-15
 
 ### Added
