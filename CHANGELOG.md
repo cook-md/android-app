@@ -21,19 +21,6 @@ notes stay in the private repository; this file is generated from it.
 - "Skip" on any of the questions after "Get started" now closes them and opens an empty recipe
   list, so you can start with only your own recipes. "Get sample recipes" there asks the
   questions again, and "Skip" brings you back to the list without adding anything.
-- The free-trial card at the end of setup now says what the trial gives you: "Try all app
-  features free for 7 days".
-  
-- "Start free trial" on that card now opens the Google Play purchase for the plan the card
-  describes, in one tap. If you close the Play sheet you see all plans, as before. Once a plan
-  is bought, setup ends and your recipes open.
-- The free-trial card now spells out the terms ("No charge today, then … Auto-renews … until
-  canceled"), links to the Terms of Use and Privacy Policy, and offers "Already have an
-  account? Sign in" when you are signed out. If the account you sign in to already has a
-  plan, the card goes away.
-  
-- The plans screen now says that sync covers your shopping list as well as your recipes.
-  
 
 ### Fixed
 
